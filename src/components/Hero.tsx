@@ -60,7 +60,10 @@ export default function Hero() {
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
           
-          <button className="px-8 py-4 glass hover:bg-white/10 text-white font-bold rounded-2xl flex items-center gap-2 transition-all">
+          <button 
+            onClick={() => window.open('https://wa.me/923029626015', '_blank')}
+            className="px-8 py-4 glass hover:bg-white/10 text-white font-bold rounded-2xl flex items-center gap-2 transition-all"
+          >
             <Phone className="w-5 h-5" />
             Contact on WhatsApp
           </button>

@@ -19,7 +19,7 @@ export default function TopBar() {
         </div>
         
         <a 
-          href="https://wa.me/#" 
+          href="https://wa.me/923029626015" 
           className="flex items-center gap-2 px-3 py-1 bg-[#25D366] hover:bg-[#20ba59] text-white text-xs font-bold rounded-full transition-all hover:scale-105 active:scale-95"
         >
           <Phone className="w-3 h-3 fill-current" />

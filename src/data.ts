@@ -53,43 +53,42 @@ export const SERVICES: Service[] = [
 
 export const PRICING_PLANS: PricingPlan[] = [
   {
-    id: 'basic',
-    name: 'Basic Plan',
-    price: '$99',
-    delivery: '24-48 Hours',
+    id: 'post-karma',
+    name: 'Post Karma Starter',
+    price: '$15',
+    delivery: '12-24 Hours',
     features: [
-      '500+ Organic Karma',
-      'Basic Subreddit Targeting',
-      'Content Recommendation',
-      'Standard Support'
+      '500 Organic Post Karma',
+      'Realistic Posting Pattern',
+      'Safe Niche Subreddits',
+      '24/7 Support'
     ]
   },
   {
-    id: 'premium',
-    name: 'Premium Plan',
-    price: '$249',
-    delivery: '3-5 Days',
+    id: 'comment-karma',
+    name: 'Comment Karma Starter',
+    price: '$15',
+    delivery: '12-24 Hours',
     features: [
-      '2500+ Organic Karma',
-      'Advanced Niche Targeting',
-      'Comment Engagement',
-      'Priority Delivery',
-      '24/7 Dedicated Support'
+      '30 Organic Comment Karma',
+      'High-Quality Engagement',
+      'Trusted Profile Status',
+      '24/7 Support'
+    ]
+  },
+  {
+    id: 'elite-bundle',
+    name: 'Elite Growth Bundle',
+    price: '$75',
+    delivery: '2-4 Days',
+    features: [
+      '3000+ Total Organic Karma',
+      '250+ Comment Engagement',
+      'Premium Subreddit Access',
+      'Anti-Ban Protection',
+      'Dedicated Account Manager'
     ],
     recommended: true
-  },
-  {
-    id: 'enterprise',
-    name: 'Enterprise Plan',
-    price: 'Custom',
-    delivery: 'Ongoing',
-    features: [
-      'Full Brand Domination',
-      'Multi-Account Management',
-      'AEO & GEO Optimization',
-      'Direct Traffic Conversion',
-      'Dedicated Strategy Manager'
-    ]
   }
 ];
 

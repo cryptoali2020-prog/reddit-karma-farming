@@ -11,7 +11,12 @@ export default function Contact() {
             <p className="text-white/50 mb-12 max-w-lg leading-relaxed">Ready for professional growth? Reach out for custom quotes, bulk orders, or long-term brand strategy. Our team responds in less than 4 hours.</p>
 
             <div className="space-y-6">
-              <div className="flex items-center gap-6 p-6 glass rounded-[2rem] group hover:border-brand-orange/30 transition-all">
+              <a 
+                href="https://wa.me/923029626015"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-6 p-6 glass rounded-[2rem] group hover:border-brand-orange/30 transition-all block"
+              >
                 <div className="w-14 h-14 rounded-2xl bg-[#25D366]/10 flex items-center justify-center text-[#25D366] group-hover:scale-110 transition-transform">
                   <Phone className="w-6 h-6 fill-current" />
                 </div>
@@ -19,7 +24,7 @@ export default function Contact() {
                   <h4 className="font-bold">WhatsApp Support</h4>
                   <p className="text-xs text-white/40">24/7 Priority Channel</p>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-center gap-6 p-6 glass rounded-[2rem] group hover:border-brand-orange/30 transition-all">
                 <div className="w-14 h-14 rounded-2xl bg-[#0088CC]/10 flex items-center justify-center text-[#0088CC] group-hover:scale-110 transition-transform">

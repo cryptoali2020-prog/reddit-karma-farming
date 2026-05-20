@@ -88,7 +88,7 @@ export default function App() {
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          href="https://wa.me/#"
+          href="https://wa.me/923029626015"
           className="w-16 h-16 rounded-full bg-[#25D366] flex items-center justify-center text-white shadow-[0_0_30px_rgba(37,211,102,0.4)] animate-float transition-shadow hover:shadow-[0_0_40px_rgba(37,211,102,0.6)]"
         >
           <Phone className="w-8 h-8 fill-current" />

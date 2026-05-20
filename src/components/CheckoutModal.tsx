@@ -145,7 +145,7 @@ export default function CheckoutModal({ isOpen, onClose, plan }: { isOpen: boole
 
               <div className="flex flex-col gap-4">
                 <a 
-                  href={`https://wa.me/#?text=I've%20just%20placed%20an%20order%20for%20${plan?.name}%20for%20${plan?.price}`}
+                  href={`https://wa.me/923029626015?text=I've%20just%20placed%20an%20order%20for%20${plan?.name}%20for%20${plan?.price}`}
                   className="w-full py-5 bg-[#25D366] hover:bg-[#20ba59] text-white font-bold rounded-2xl flex items-center justify-center gap-3 transition-all active:scale-95"
                 >
                   Confirm on WhatsApp
