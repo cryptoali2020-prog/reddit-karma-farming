@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #FF4500;
+  --color-brand-blue: #00D1FF;
+  --color-dark-bg: #05070A;
+  --color-card-bg: #0F1218;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white font-sans antialiased selection:bg-brand-orange/30;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .glow-orange {
+    @apply shadow-[0_0_20px_rgba(255,69,0,0.3)];
+  }
+  
+  .glow-blue {
+    @apply shadow-[0_0_20px_rgba(0,209,255,0.3)];
+  }
+
+  .text-glow-orange {
+    @apply [text-shadow:0_0_8px_rgba(255,69,0,0.5)];
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

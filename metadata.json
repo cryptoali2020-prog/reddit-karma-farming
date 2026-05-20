@@ -1,0 +1,6 @@
+{
+  "name": "Reddit Growth Pro",
+  "description": "Premium Reddit marketing and growth services for brands and individuals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
