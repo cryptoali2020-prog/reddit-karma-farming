@@ -29,7 +29,10 @@ export default function Services() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                 <p className="text-white/50 text-sm mb-6 flex-grow">{service.description}</p>
-                <button className="w-full py-3 px-4 rounded-xl border border-white/10 text-white font-bold text-sm bg-white/5 hover:bg-brand-orange hover:border-brand-orange transition-all active:scale-95">
+                <button 
+                  onClick={() => window.open(`https://wa.me/923029626015?text=Hello, I would like to order the ${encodeURIComponent(service.title)} service.`, '_blank')}
+                  className="w-full py-3 px-4 rounded-xl border border-white/10 text-white font-bold text-sm bg-white/5 hover:bg-brand-orange hover:border-brand-orange transition-all active:scale-95"
+                >
                   Order Service
                 </button>
               </motion.div>
